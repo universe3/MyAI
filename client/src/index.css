@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+*{
+  font-family: "Outfit", sans-serif;
+}
+
+:root {
+  --color-primary: #5044E5;
+}
+
+.reset-tw, reset-tw *{
+  all: revert, import !important;
+}
+
+.cl-drawerRoot{
+  z-index: 10;
+}
